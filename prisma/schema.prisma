@@ -1,0 +1,42 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  password     String
+  name         String?
+  createdAt    DateTime @default(now())
+  
+  // Onboarding / Psych Data
+  moodSource   String?  // Core Affect (Calm, Anxious...)
+  sleepQuality String?
+  stressSource String?
+  primaryGoal  String?
+  
+  sessions     Session[]
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  createdAt    DateTime @default(now())
+  duration     Int      // in minutes
+  moodBefore   String
+  moodDetailed String?
+  moodAfter    String?
+  rating       Int?
+  script       String?  // The generated text
+  type         String   // Guided, Breathwork, etc.
+
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+}

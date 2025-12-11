@@ -40,7 +40,7 @@ Built with **Next.js 14**, **Tailwind/Custom CSS**, and **Google Gemini AI**, it
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/calm-mind.git
+   git clone https://github.com/HMZiyad/Calm-Mind.git
    cd calm-mind
    ```
 

@@ -1,4 +1,4 @@
-# 🧘 Calm Mind
+# Calm Mind
 
 **Calm Mind** is an intelligent, AI-powered meditation application designed to generate personalized meditation sessions based on your current mood and needs.
 
@@ -6,19 +6,19 @@ Built with **Next.js 14**, **Tailwind/Custom CSS**, and **Google Gemini AI**, it
 
 ## ✨ Features
 
-- **🤖 AI-Generated Meditations**: Uses Google's Gemini 1.5 Flash to write unique scripts tailored to your specific mood (e.g., "Anxious about work", "Can't sleep").
-- **🗣️ Smart Session Player**: 
+- ** AI-Generated Meditations**: Uses Google's Gemini 1.5 Flash to write unique scripts tailored to your specific mood (e.g., "Anxious about work", "Can't sleep").
+- ** Smart Session Player**: 
   - **Sentence-by-Sentence TTS**: Reads the script to you in a natural, paced rhythm.
   - **"Read-then-Speak" Sync**: Displays the full sentence for you to absorb before it is spoken (Dual Coding Theory).
   - **Ambient Sounds**: Toggle background sounds (Rain, Ocean) for immersion.
-- **📊 Progress Tracking**: 
+- ** Progress Tracking**: 
   - Track your "Mindful Minutes".
   - Log your mood before and after sessions.
   - View streak and history stats.
-- **🔐 Secure Authentication**: Custom JWT-based auth with session-only persistence (auto-logout on close).
-- **🎨 Premium UI/UX**: A calm, "Lattice-inspired" design system with glassmorphism, smooth animations (Framer Motion), and a fully responsive layout.
+- ** Secure Authentication**: Custom JWT-based auth with session-only persistence (auto-logout on close).
+- ** Premium UI/UX**: A calm, "Lattice-inspired" design system with glassmorphism, smooth animations (Framer Motion), and a fully responsive layout.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -28,7 +28,7 @@ Built with **Next.js 14**, **Tailwind/Custom CSS**, and **Google Gemini AI**, it
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -76,10 +76,10 @@ Built with **Next.js 14**, **Tailwind/Custom CSS**, and **Google Gemini AI**, it
 
    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).

@@ -43,7 +43,6 @@ Built with **Next.js 14**, **Tailwind/Custom CSS**, and **Google Gemini AI**, it
    git clone https://github.com/HMZiyad/Calm-Mind.git
    cd calm-mind
    ```
-
 2. **Install dependencies**
    ```bash
    npm install
